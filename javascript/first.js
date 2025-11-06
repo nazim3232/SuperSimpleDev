@@ -1,0 +1,1 @@
+console.log("This is the first folder in the javascript.");
