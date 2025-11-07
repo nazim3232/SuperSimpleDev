@@ -39,3 +39,40 @@ function factory(name , age ,salary, gender)
 
 let  p = factory("Nazim Chowdhury",  23, 23000, "male");
 p.showDetails();
+
+
+let hero = {
+  name : "Nazim Chwdhuiry",
+  get nameOfperson()
+  {
+    return `${this.name}`;
+  },
+  set fullName(value)
+  {
+    this.name = value;
+  }
+}
+
+hero.fullName ="Faisla HSJFDHFDASD";
+console.log("This is the name of the person.")
+
+console.log(hero.nameOfperson);
+
+
+class Techer {
+     constructor(name, age , section, id)
+     {
+      this.name = name;
+      this.age = age ;
+      this.section = section;
+      this.id  =id;
+     }
+   getName()
+   {
+    console.log(`My name is : ${this.name}`)
+   }
+}
+
+console.log("This is the name of the teacher of this country : ");
+let T1 = new Techer("Nazim Chowdury ", 23, 7, 24354534);
+T1.getName();
